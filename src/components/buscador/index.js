@@ -1,1 +1,1 @@
-export * from './Buscador'
+export * from './Buscador' 

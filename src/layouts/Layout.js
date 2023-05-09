@@ -1,5 +1,7 @@
 import React from 'react';
-import {Menu, Buscador} from "../components"
+import {Menu, Buscador, cards } from "../components"
+import {Home} from "../pages"
+import {Rutas} from "../routes"
 
 export function Layout(props) {
   const {children}=props;
@@ -8,8 +10,8 @@ export function Layout(props) {
     <div>
       <Menu/>
       <p></p>
-      <Buscador/>
     </div>
+    
     <div>
       {children}
     </div>

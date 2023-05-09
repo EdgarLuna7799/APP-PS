@@ -6,3 +6,4 @@ export function Boton_ingresar() {
     href='http://localhost:3000/ingresa'>Ingresar</button>
   )
 }
+ 
